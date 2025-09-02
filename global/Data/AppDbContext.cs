@@ -16,9 +16,5 @@ namespace global.Data
         public DbSet<Alerta> Alertas { get; set; }
         public DbSet<LogApi> LogsApi { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            base.OnModelCreating(modelBuilder);
-        }
     }
 }
